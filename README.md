@@ -44,6 +44,6 @@ The model was evaluated using 10-fold cross validation. Missing values were hand
 | Encoding Method | Accuracy (Mean ± Std) | Precision (Mean ± Std) | Recall (Mean ± Std) | F1-score (Mean ± Std) |
 |---|---:|---:|---:|---:|
 | One-Hot Encoding | **0.809 ± 0.048** | 0.822 ± 0.053 | **0.833 ± 0.081** | **0.825 ± 0.055** |
-| Label Encoding   | 0.803 ± 0.047 | **0.822 ± 0.048** | 0.818 ± 0.090 | 0.818 ± 0.059 |
+| Label Encoding | 0.803 ± 0.047 | **0.822 ± 0.048** | 0.818 ± 0.090 | 0.818 ± 0.059 |
 
 ✅ **Conclusion:** One-Hot Encoding achieved slightly better overall performance, especially in Recall and F1-score.
