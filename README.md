@@ -37,7 +37,7 @@ heart-disease-logistic-regression/
 ├── requirements.txt
 └── .gitignore
 ```
-# 📈 Results (10-Fold Cross Validation)
+## 📈 Results (10-Fold Cross Validation)
 
 The model was evaluated using 10-fold cross validation. Missing values were handled using `SimpleImputer` inside the pipeline to avoid data leakage.
 
