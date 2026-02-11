@@ -17,7 +17,7 @@ Source (Kaggle):
 https://www.kaggle.com/datasets/redwankarimsony/heart-disease-data
 
 Target variable `num` was converted into a binary classification task:
-- `0` → No heart disease
+- `-1` → No heart disease
 - `1` → Presence of heart disease (originally 1–4)
 
 ---

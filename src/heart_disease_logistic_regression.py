@@ -25,7 +25,9 @@ df = pd.read_csv(DATA_PATH)
 
 
 # Binary target
-df['num'] = df['num'].apply(lambda x: 0 if x == 0 else 1)
+df['num'] = df['num'].apply(lambda x: -1 if x == 0 else 1)
+print("Class distribution after binarization:")
+print(df['num'].value_counts())
 
 # Drop non-continuous features
 drop_cols = ['sex', 'dataset', 'fbs', 'restecg', 'exang', 'slope', 'thal']
